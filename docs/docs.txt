@@ -1,0 +1,15 @@
+Go to https://www.yoctoproject.org/development/releases/
+We Choose Scarthgap (5.0) as our yocto version
+target is to get to repo in git
+Docs->Source repositories
+poky->scarthgap
+git clone this
+    - access to core metadata
+    - this will be our base that we will build upon
+    
+mkdir yocto && cd yocto    
+git clone -b scarthgap --single-branch --depth 1 https://git.yoctoproject.org/poky
+
+We will be searching a lot in the poky or other surce folders.
+
+find . -name "*poky*"
