@@ -9,6 +9,7 @@ git clone this
     
 mkdir yocto && cd yocto    
 git clone -b scarthgap --single-branch --depth 1 https://git.yoctoproject.org/poky
+6a3d16d7b8b9adc096a048e0b2ad463688a23dec
 
 We will be searching a lot in the poky or other surce folders.
 
